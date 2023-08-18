@@ -3,8 +3,6 @@ server:
 spring:
   application:
     name: catalog-service
-
-idRandomCatalog:${random.value}
  
 eureka:
   client:
