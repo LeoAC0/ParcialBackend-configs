@@ -11,9 +11,9 @@ spring:
           enabled: true
       routes:
         - id: catalogRoute
-          uri: lb://catalog-service/
+          uri: http://catalog-service
           predicates:
-            - Path=/api/v1/movies/catalog/**
+            - Path=/catalog/**
         - id: catalogRouteToMovie
           uri: lb://catalog-service/
           predicates:
