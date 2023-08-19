@@ -1,5 +1,5 @@
 server:
-  port: ${PORT:${random.int[8800,9800]}}
+  port: ${PORT:${SERVER_PORT:0}}
 spring:
   application:
     name: catalog-service
