@@ -1,5 +1,5 @@
 server:
-  port: ${PORT:${SERVER_PORT:0}}
+  port: ${PORT:${SERVER_PORT:8889}}
 spring:
   application:
     name: catalog-service
