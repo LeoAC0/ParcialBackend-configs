@@ -14,10 +14,7 @@ spring:
           uri: http://catalog-service
           predicates:
             - Path=/catalog/**
-        - id: catalogRouteToMovie
-          uri: http://catalog-service/
-          predicates:
-            - Path=/movies/**
+
 
 
 
