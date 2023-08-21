@@ -1,6 +1,5 @@
-aleatory: random.int[10000,20000]
 server:
-  port: aleatory
+  port: ${PORT: random.int[10000,20000]}
 
 spring:
   application:
