@@ -1,5 +1,5 @@
 server:
-  port: ${PORT: random.int[10000,20000]}
+  port: ${PORT: port}
 
 spring:
   application:
