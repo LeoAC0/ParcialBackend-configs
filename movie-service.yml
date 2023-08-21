@@ -1,5 +1,6 @@
 server:
-  port: 8001
+  port: aleatory
+aleatory= random.int[10000,20000]
 spring:
   application:
     name: movie-service
