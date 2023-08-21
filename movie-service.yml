@@ -29,3 +29,18 @@ eureka:
     prefer-ip-address: true
     lease-renewal-interval-in-seconds: 5
     lease-expiration-duration-in-seconds: 10
+
+info:
+  app:
+    name: movie-service
+    description: Hola, soy el microservicio movie.
+    version: 1.0.0
+
+management:
+  info:
+    env:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: info
