@@ -11,7 +11,8 @@ spring:
           enabled: true
       routes:
         - id: catalogRoute
-          uri: http://localhost:9000 #nos dijo que tenemos que poner lb://nombre-del-ms
+          uri: lb://catalog-service
+          #uri: http://localhost:9000 #nos dijo que tenemos que poner lb://nombre-del-ms
           predicates:
             - Path=/catalog/**
 
