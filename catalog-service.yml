@@ -1,8 +1,28 @@
 server:
   port: 9000
+
 spring:
   application:
     name: catalog-service
+  mongodb:
+    embedded:
+      version: 4.0.2
+  data:
+    mongodb:
+      database: test
+      port: 27020
+  rabbitmq:
+    username: guest
+    password: guest
+    host: localhost
+    port: 5672
+  zipkin:
+    base-url: http://localhost:9411/
+    enabled: true
+  
+queue:
+  movie:
+    name: MovieQueue
  
 eureka:
   client:

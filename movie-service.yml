@@ -13,6 +13,18 @@ spring:
     hibernate.ddl-auto: update
     generate-ddl: true
     show-sql: true
+  rabbitmq:
+    username: guest
+    password: guest
+    host: localhost
+    port: 5672
+  zipkin:
+    base-url: http://localhost:9411/
+    enabled: true
+  
+queue:
+  movie:
+    name: MovieQueue
 
 message: "hello world"
 
@@ -44,3 +56,4 @@ management:
     web:
       exposure:
         include: info
+
