@@ -16,6 +16,8 @@ spring:
 queue:
   movie:
     name: MovieQueue
+    
+message:"Movie loaded with success"
  
 eureka:
   client:

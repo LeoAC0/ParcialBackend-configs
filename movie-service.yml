@@ -26,7 +26,7 @@ queue:
   movie:
     name: MovieQueue
 
-message: "hello world"
+message: "movie add"
 
 eureka:
   client:
