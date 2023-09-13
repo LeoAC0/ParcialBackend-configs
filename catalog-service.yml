@@ -25,6 +25,8 @@ spring:
 queue:
   movie:
     name: MovieQueue
+  serie:
+    name: SerieQueue
     
 message: Movie loaded with success
  
