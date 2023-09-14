@@ -1,5 +1,5 @@
 server:
-  port: 9000
+  port: ${PORT:${SERVER_PORT:0}}
   
 idRandom: ${random.value}
 
@@ -28,7 +28,6 @@ queue:
   serie:
     name: SerieQueue
     
-message: Movie loaded with success
  
 eureka:
   client:

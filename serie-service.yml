@@ -26,7 +26,6 @@ queue:
   serie:
     name: SerieQueue
 
-message: "series loaded with success"
 
 eureka:
   client:
